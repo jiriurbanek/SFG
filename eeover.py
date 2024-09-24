@@ -1,4 +1,5 @@
 import numpy as np
+import solvers
 import scipy as sp
 
 def ellipseSegment(x1, y1, x2, y2, A, B, h, k, phi):
@@ -28,4 +29,7 @@ def ellipseSegment(x1, y1, x2, y2, A, B, h, k, phi):
 def ellipseCase(AA1, BB1, CC1, DD1, EE1, FF1, AA2, BB2, CC2, DD2, EE2, FF2):
     A = np.array([[AA1, BB1/2, DD1/2,], [BB1/2, CC1, EE1/2], [DD1/2, EE1/2, FF1]])
     B = np.array([[AA2, BB2/2, DD2/2,], [BB2/2, CC2, EE2/2], [DD2/2, EE2/2, FF2]])
+
+    d = AA1 * (CC1 * FF1 - EE1 * EE1) - (CC1 * DD1 * DD1 - 2*BB1 * DD1* EE1 + FF1 * BB1 * BB1)
+    a = 1/d* 
 
