@@ -31,5 +31,11 @@ def ellipseCase(AA1, BB1, CC1, DD1, EE1, FF1, AA2, BB2, CC2, DD2, EE2, FF2):
     B = np.array([[AA2, BB2/2, DD2/2,], [BB2/2, CC2, EE2/2], [DD2/2, EE2/2, FF2]])
 
     d = AA1 * (CC1 * FF1 - EE1 * EE1) - (CC1 * DD1 * DD1 - 2*BB1 * DD1* EE1 + FF1 * BB1 * BB1)
-    a = 1/d* 
-
+    a = 1/d* (AA1 * (CC1 * FF2 - 2*EE1 * EE2 + FF1 * CC2) + 2*BB1 * (EE1 * DD2 - FF1 * BB2 + DD1* EE2) + 2*DD1 * (EE1 * BB2 - CC1 * DD2) - (BB1 * BB1 * FF2 + DD1 * DD1 * CC2 + EE1 * EE1 * AA2) + (CC1 * FF1 * AA2))
+    b = 1/d* (AA1 * (CC2 * FF2 - EE2 * EE2) + 2*BB1 * (EE2 * DD2 - FF2 * BB2) + 2*DD1* (EE2 * BB2 - CC2 * DD2) + CC1 * (AA2 * FF2 - DD2 * DD2) + 2*EE1 * (BB2 * DD2 - AA2 * EE2) + FF1 * (AA2 * CC2 - BB2 * BB2))
+    c = 1/d* (AA2 * (CC2 * FF2 - EE2 * EE2) - (BB2 * BB2 - FF2 - 2*BB2 * DD2 * EE2 + DD2 * DD2 * CC2))
+    s = solvers.solve_cubic(a, b, c)
+    s1 = s[0]
+    s2 = s[1]
+    s3 = s[2]
+    s4 = -27*c**3 + 18*c*a*b + a*a*b*b - 4*a**3*c - 4*b**3
