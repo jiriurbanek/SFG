@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/nixos.org) (preloaded format=pdflatex 1980.1.1)  13 NOV 2024 04:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/nixos.org) (preloaded format=pdflatex 1980.1.1)  13 NOV 2024 05:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1157,7 +1157,7 @@ public/newtx/txexs.pfb></nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-202
 sq1dximagxlx8j7-texlive-2023-env-texmfdist/fonts/type1/public/newpx/zplr.pfb></
 nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-texmfdist/fonts/typ
 e1/public/newpx/zplri.pfb>
-Output written on transit-light-curves.pdf (6 pages, 1090004 bytes).
+Output written on transit-light-curves.pdf (6 pages, 1090014 bytes).
 PDF statistics:
  170 PDF objects out of 1000 (max. 8388607)
  135 compressed objects within 2 object streams
