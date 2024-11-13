@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/nixos.org) (preloaded format=pdflatex 1980.1.1)  13 NOV 2024 05:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/nixos.org) (preloaded format=pdflatex 1980.1.1)  13 NOV 2024 05:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -912,6 +912,15 @@ texlive-2023-env-texmfdist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/nix/store/d80
 likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-texmfdist/fonts/enc/dvips/newtx/
 ntx-ot1-tlf.enc}{/nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-t
 exmfdist/fonts/enc/dvips/newpx/px-lms.enc}]
+LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 
+137.
+
+(/nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-texmfdist/tex/lat
+ex/newpx/t1npxtt.fd
+File: t1npxtt.fd 2000/12/14 v1.0
+)
+LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
+(Font)              scaled to size 10.0pt on input line 137.
 \openout2 = `figures/circles.aux'.
 
 (./figures/circles.tex
@@ -928,7 +937,7 @@ Package epstopdf Info: Source file: <figures/circles.eps>
 ted-to.pdf figures/circles.eps>
 (epstopdf)             \includegraphics on input line 114.
 Package epstopdf Info: Output file is already uptodate.
-<figures/circles-eps-converted-to.pdf, id=58, 397.485pt x 255.95625pt>
+<figures/circles-eps-converted-to.pdf, id=59, 397.485pt x 255.95625pt>
 File: figures/circles-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/circles-eps-converted-to.pdf>
 Package pdftex.def Info: figures/circles-eps-converted-to.pdf  used on input li
@@ -949,7 +958,7 @@ o.pdf>
 -eps-converted-to.pdf figures/ellipse-circle-0.5.eps>
 (epstopdf)             \includegraphics on input line 114.
 Package epstopdf Info: Output file is already uptodate.
-<figures/ellipse-circle-0.5-eps-converted-to.pdf, id=59, 397.485pt x 255.95625p
+<figures/ellipse-circle-0.5-eps-converted-to.pdf, id=60, 397.485pt x 255.95625p
 t>
 File: figures/ellipse-circle-0.5-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/ellipse-circle-0.5-eps-converted-to.pdf>
@@ -973,7 +982,7 @@ fferent-phase-eps-converted-to.pdf figures/ellipse-ellipse-different-phase.eps>
 
 (epstopdf)             \includegraphics on input line 115.
 Package epstopdf Info: Output file is already uptodate.
-<figures/ellipse-ellipse-different-phase-eps-converted-to.pdf, id=70, 397.485pt
+<figures/ellipse-ellipse-different-phase-eps-converted-to.pdf, id=72, 397.485pt
  x 255.95625pt>
 File: figures/ellipse-ellipse-different-phase-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -998,7 +1007,7 @@ se-eps-converted-to.pdf>
 phase.eps>
 (epstopdf)             \includegraphics on input line 115.
 Package epstopdf Info: Output file is already uptodate.
-<figures/ellipse-ellipse-0.47-different-phase-eps-converted-to.pdf, id=71, 397.
+<figures/ellipse-ellipse-0.47-different-phase-eps-converted-to.pdf, id=73, 397.
 485pt x 255.95625pt>
 File: figures/ellipse-ellipse-0.47-different-phase-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -1015,7 +1024,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.168 \end{figure}
+l.169 \end{figure}
                   
 
 
@@ -1025,7 +1034,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.168 \end{figure}
+l.169 \end{figure}
                    <./figures/circles-eps-converted-to.pdf> <./figures/ellipse-
 circle-0.5-eps-converted-to.pdf>]
 \openout2 = `figures/ellipse-assymetrical.aux'.
@@ -1042,7 +1051,7 @@ Package epstopdf Info: Source file: <figures/ellipse-assymetrical.eps>
 al-eps-converted-to.pdf figures/ellipse-assymetrical.eps>
 (epstopdf)             \includegraphics on input line 113.
 Package epstopdf Info: Output file is already uptodate.
-<figures/ellipse-assymetrical-eps-converted-to.pdf, id=82, 397.485pt x 255.9562
+<figures/ellipse-assymetrical-eps-converted-to.pdf, id=84, 397.485pt x 255.9562
 5pt>
 File: figures/ellipse-assymetrical-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1064,7 +1073,7 @@ Package epstopdf Info: Source file: <figures/realistic.eps>
 erted-to.pdf figures/realistic.eps>
 (epstopdf)             \includegraphics on input line 112.
 Package epstopdf Info: Output file is already uptodate.
-<figures/realistic-eps-converted-to.pdf, id=83, 397.485pt x 255.95625pt>
+<figures/realistic-eps-converted-to.pdf, id=85, 397.485pt x 255.95625pt>
 File: figures/realistic-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/realistic-eps-converted-to.pdf>
 Package pdftex.def Info: figures/realistic-eps-converted-to.pdf  used on input 
@@ -1079,7 +1088,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.180 \end{figure}
+l.181 \end{figure}
                   
 
 
@@ -1089,11 +1098,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.180 \end{figure}
+l.181 \end{figure}
                    <./figures/ellipse-ellipse-different-phase-eps-converted-to.
 pdf> <./figures/ellipse-ellipse-0.47-different-phase-eps-converted-to.pdf>]
 LaTeX Font Info:    Font shape `T1/zpltlf/m/it' will be
-(Font)              scaled to size 10.0pt on input line 183.
+(Font)              scaled to size 10.0pt on input line 184.
 [5
 
 
@@ -1103,7 +1112,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.189 \begin{thebibliography}{5}
+l.191 \begin{thebibliography}{5}
                                 
 
 
@@ -1113,28 +1122,24 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.189 \begin{thebibliography}{5}
+l.191 \begin{thebibliography}{5}
                                  <./figures/ellipse-assymetrical-eps-converted-
-to.pdf> <./figures/realistic-eps-converted-to.pdf>]
-LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 
-190.
-
-(/nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-texmfdist/tex/lat
-ex/newpx/t1npxtt.fd
-File: t1npxtt.fd 2000/12/14 v1.0
-)
-LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 190.
-[6] (./transit-light-curves.aux (./figures/circles.aux) (./figures/ellipse-circ
-le-0.5.aux) (./figures/ellipse-ellipse-different-phase.aux) (./figures/ellipse-
-ellipse-0.47-different-phase.aux) (./figures/ellipse-assymetrical.aux) (./figur
-es/realistic.aux))
+to.pdf> <./figures/realistic-eps-converted-to.pdf>] [6] (./transit-light-curves
+.aux (./figures/circles.aux) (./figures/ellipse-circle-0.5.aux) (./figures/elli
+pse-ellipse-different-phase.aux) (./figures/ellipse-ellipse-0.47-different-phas
+e.aux) (./figures/ellipse-assymetrical.aux) (./figures/realistic.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-Package rerunfilecheck Info: File `transit-light-curves.out' has not changed.
-(rerunfilecheck)             Checksum: DA96DC1E58701DDC8D831F4CE908E000;1220.
+
+Package rerunfilecheck Warning: File `transit-light-curves.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `transit-light-curves.out':
+(rerunfilecheck)             Before: DA96DC1E58701DDC8D831F4CE908E000;1220
+(rerunfilecheck)             After:  0B131115041A64CEE9C8905DBD7604FB;1220.
  ) 
 Here is how much of TeX's memory you used:
  15093 strings out of 474116
@@ -1157,10 +1162,10 @@ public/newtx/txexs.pfb></nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-202
 sq1dximagxlx8j7-texlive-2023-env-texmfdist/fonts/type1/public/newpx/zplr.pfb></
 nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-texmfdist/fonts/typ
 e1/public/newpx/zplri.pfb>
-Output written on transit-light-curves.pdf (6 pages, 1090014 bytes).
+Output written on transit-light-curves.pdf (6 pages, 1091744 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
- 135 compressed objects within 2 object streams
+ 172 PDF objects out of 1000 (max. 8388607)
+ 137 compressed objects within 2 object streams
  32 named destinations out of 1000 (max. 500000)
  95 words of extra memory for PDF output out of 10000 (max. 10000000)
 
