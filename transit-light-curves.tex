@@ -16,7 +16,8 @@
 %\usepackage{arev}
 \usepackage{newpxtext,newpxmath}
 
-\title{The effects of exoplanet's shape on its transit light curve}
+\title{The effects of exoplanet's shape on its transit light curve \\
+\small{\url{https://github.com/jiriurbanek/SFG}}}
 \author{Jiří Urbánek}
 
 \begin{document}
@@ -41,10 +42,9 @@ project was to determine the planet's transit light curve based on its shape.
 \subsection{Angular size}
 First, we need to determine how much the apparent size of the planet changes.
 We can directly compare the difference between angular diameter of the planet at the 
-point when it is closest to earth and at the point when it just crosses its host star,
-and the difference between the angular diameter of two planets - one spherical and the
-other ellipsoidal, both projecting to a circle and ellipse of the same respective area.
-We can approximate the angular size as
+point when it is closest to earth (in the middle of the transit) and at the point when
+it just crosses its host star (the beginning/end of the transit).We can approximate
+the angular size as
 \begin{equation}
   \delta = \frac{d}{D}
   \label{eq:angular-size}
@@ -65,12 +65,12 @@ the star and $2\sigma$ is the angle of the whole transit. Calculating the differ
 between the angular size for $D_1$ and $D_2$ with above mentioned values we get
 $\Delta\delta = 2.02\cdot10^{-13}$.
 This difference only becomes smaller for larger distances and smaller angles (we were very
-generous in both cases), so we we will neglect all effects of angular size.
+generous in both cases), so we we will neglect all effects of angular size variation.
 \subsection{Planet shape}
 To some degree, all planets are non-spherical but the degree of oblateneness varies.
-Oblateness depends on rotation, external gracitational tides and material rigidity. \cite{carter}
+Oblateness depends on rotation, external gravitational tides and material rigidity. \cite{carter}
 Close-in planets undergo strong tidal effects due to their parent star. Some of the 
-concequences are that their spins and orbits change until equilibrium is reached, their
+consequences are that their spins and orbits change until equilibrium is reached, their
 orbits become circular and synchronous and planetary bodies less spherical. \cite{correia1}
 The shape of such a planet can generally be described by a 3-axis ellipsoid.
 Such an ellipsoid, when projected to a plane, can be thought of as an ellipse with varying
@@ -86,11 +86,14 @@ where
   \label{eq:ABC}
 \end{equation}
 Parameters $a$, $b$ and $c$ are lengths of ellipsoid semi-axes such that $a$ and $b$
-are on the plane of planet's orbit and $c$ is perpendicular. $\alpha$ is the phase of
-the planet (in our case it is also the angle of the planet's orbit + some initial
-phase). The inclination $i$ is 0 when the plane of orbit is perpendicular to line of sight
+are on the plane of planet's orbit and $c$ is perpendicular. For the sake of simplicity,
+this is indeed the case as tidal effects tend to align the rotation axis of the planet to
+its orbital axis.
+$\alpha$ is the phase of the planet . The inclination $i$ is 0 when the plane of orbit is perpendicular to line of sight
 and $\frac{\pi}{2}$ when the planet passes directly across the centre of the star.
 \subsection{Relative positions of a circle and an ellipse, their overlap area}
+From now on, we will describe the planet as a 3-axes ellipsoid and the star as a uniform
+sphere with their projections being an ellipse and a circle respectively.
 Relative positions of an ellipse and a circle, can be described
 in several parameters, namely the circle radius $r$ and centre $[h_1, k_1]$ and the
 ellipse semi-axes $a$ and $b$, centre $[h_2, k_2]$ and angle $\phi$ against x-axis. For
@@ -106,8 +109,8 @@ We calculate the relative positions on-the-fly by projecting the orbits of the p
 and the star to a plane tangent to the sky
 \begin{equation}
   \begin{bmatrix}
-    x_1 \\
-    y_1 
+    h_1 \\
+    k_1 
   \end{bmatrix}
   = \frac{rm_2}{m_2+m_1}
   \begin{bmatrix}
@@ -115,8 +118,8 @@ and the star to a plane tangent to the sky
     \cos(i)\cdot\sin(\omega t)
   \end{bmatrix},
   \begin{bmatrix}
-    x_2 \\
-    y_2 
+    h_2 \\
+    k_2 
   \end{bmatrix}
   = \frac{rm_1}{m_2+m_1}
   \begin{bmatrix}
@@ -133,8 +136,17 @@ where
 Here, $r$ is the distance between the star and the planet, $m_1$ and $m_2$ are the masses
 of the star and the planet respectively, $i$ is the inclination of the orbit, $G$ is the
 gravitational constant (in our case set to 1 for the sake of simplicity) and $t$ is the
-time parameter.
-For calculating ellipse-ellpse overlap we use \url{https://github.com/chraibi/EEOver}
+time parameter. Because we are taking only tidally locked planets into account,
+the general formula for $\alpha$ is
+\begin{equation}
+  \alpha = \omega t - \frac{\pi}{2}
+  \label{eq:alpha_omega}
+\end{equation}
+For all purposes, $t$ starts at the point when the planet is exactly perpendicular to
+the line connecting the observer and its host star. Our coordinate system is set in such
+a way that the planet starts on the left side of the star and moves to the right side,
+the centre is at the barycentre.
+For calculating ellipse-ellipse overlap we use \url{https://github.com/chraibi/EEOver}
 \subsection{Realistic transit light curves}
 Realistically, the transit light curve of a transiting planet isn't defined only by
 the mass and shape of the star and the planet but depends on limb darkening of the star
@@ -150,33 +162,50 @@ For demonstration purposees, the parameters are very unrealistic.
 \begin{figure}[H]
   \centering
   \include{figures/circles}
-  \caption{Two spheres of the same size ($r_2$ = 1) but of different inclination $i$}
+  \caption{Two spheres of the same size ($r_2$ = 1) but of different inclination $i$,
+  the planet with inclnation closer to $0.5\pi$ crosses the star as much as possible
+  but the star with smaller inclination passes across a smaller portion of the star's
+  surface, resulting in a different transit light curve while retaining the same
+  peak dimming.}
 \end{figure}
 \begin{figure}[H]
   \centering
-  \include{figures/ellipse-circle-0.5}
-  \caption{Ellipsoid and sphere of the same volume ($r_2$ = 1, $a$ = 1.2, $b$ = 0.8333333, $c$ = 1), inclination $i=0.5\pi$ and phase $\alpha_0 = 0$}
+  \include{figures/circles-var-2.tex}
+  \caption{Two spheres of the same size ($r_2=1$) but of different inclination $i$.
+  The sphere with inclination $0.45\pi$ doesn't cross the star's surface with its
+  whole projected area and as a result, the largest dip in the star's relative brightness
+  isn't as pronounced and the transit light curve has a different shape altogether.}
 \end{figure}
 \begin{figure}[H]
   \centering
-  \include{figures/ellipse-ellipse-different-phase}
-  \caption{Two ellipsoids with the same $i = 0.5\pi$ and size ($a$ = 1.2, $b$ = 0.8333333, $c$ = 1) but different phase $\alpha_0$}
+  \include{figures/circle-and-ellipse-i-0.5pi-var-1}
+  \caption{Sphere ($r_2=1$) and ellipsoid ($a=1.2$, $b=1$, $c=0.8333333$) of effectively
+  the same volume and same $i=0.5\pi$. As can be seen, the ellipsoidal planet faces the
+  observer directly when its projected area is the smallest and its projected area is
+  always smaller than the projected area of the spherical planet.}
 \end{figure}
 \begin{figure}[H]
   \centering
-  \include{figures/ellipse-ellipse-0.47-different-phase}
-  \caption{Two ellipsoids with the same $i = 0.47\pi$ and size ($a$ = 1.2, $b$ = 0.8333333, $c$ = 1), but different phase $\alpha_0$}
+  \include{figures/circle-and-ellipse-i-0.47}
+  \caption{Sphere ($r_2=1$) and ellipsoid ($a=1.2$, $b=1$, $c=0.8333333$) with $i=0.47\pi$.
+  As can be seen, the ellipsoid blocks less light for the same reason as above.}
 \end{figure}
 \begin{figure}[H]
   \centering
-  \include{figures/ellipse-assymetrical}
-  \caption{Ellipsoid in a more "general" configuration, $a$ = 1.2, $b$ = 0.833333, c = 1, $i$ = 0.47$\pi$, $\alpha_0$ = 0.3$\pi$}
+  \include{figures/ellipses}
+  \caption{Two ellipsoids of the same size ($a=1.2$, $b=1$, $c=0.8333333$) but of different
+  inclination $i$. The ellipsoid with $i=0.45\pi$ doesn't block the star with its whole
+  projected area. In this case, the effect of the ellipsoid's changing area can be seen
+  (just barely), the ellipsoid with inclination $i=0.5\pi$ doesn't produce a curve
+  with a flat bottom (as with the sphere) but rather a curve with a slightly concave
+  bottom.}
 \end{figure}
 \begin{figure}[H]
   \centering
-  \include{figures/realistic}
+  \include{figures/realistic.tex}
   \caption{for the sake of argument, a more "realistic" transit light curve with the parameters:
-  $G = 3.0362M_\odot R^3_\odot s^{-2}$, $m_1 = 0.4M_\odot$, $m_2 = 0.002M_\odot$, $r_1 = 0.7R_\odot$, $a = 0.1100R_\odot$, $b = 0.1R_\odot$, $c = 0.1028\odot$, $\alpha_0 = 0.3\pi$, $i = 0.4999\pi$, $r = 1000R_\odot$}
+  $G = 3.9362\cdot 10^{-7}M_\odot R^3_\odot s^{-2}$, $m_1 = 0.4M_\odot$, $m_2 = 0.002M_\odot$, $r_1 = 0.7R_\odot$, $a = 0.1100R_\odot$, $b = 0.1R_\odot$, $c = 0.1028R\odot$, $i = 0.4999\pi$, $r = 1000R_\odot$,
+  $t$ is roughly 16 years and the transit takes less than 2 days.}
   \label{fig:6}
 \end{figure}
 \section{Conclusion}
@@ -186,8 +215,11 @@ were singificantly more oblate than real planets, but as can be seen in figure \
 detecting any signal at all is difficult enough, moreover, the signal is full of noise
 and it becomes increasingly difficult to distinguish a transit from variations in the star's
 brightness. In real scenarios, it might be difficult to for example distinguish between
-a slightly inclined transit and a transit of an ellipsoidal planet.
-This project is to be found here: \url{https://github.com/jiriurbanek/SFG}
+a slightly inclined transit and a transit of an ellipsoidal planet. In a more general
+scenario, speed of rotation differs from the speed of orbit and two new parameters
+need to be added - $n$ for the ratio between those speeds and $\alpha_0$ for the
+initial phase of the planet. For those scenarios,
+only a slight modification of the project is needed.
 \begin{thebibliography}{5}
   \bibitem{carter} Joshua A. Carter and Joshua N. Winn. EMPIRICAL CONSTRAINTS ON THE OBLATENESS OF AN EXOPLANET. 2010 \url{http://dx.doi.org/10.1088/0004-637X/709/2/1219}
   \bibitem{correia1} Alexandre C. M. Correia. Transit light curve and inner structure of close-in planets. 2014. \url{https://doi.org/10.48550/arXiv.0912.1594}

@@ -1,6 +1,8 @@
+from os import MFD_HUGE_1MB
 import numpy as np
 import math
 import subprocess
+from numba import jit, test
 def shapeCase(a, b, c):
 # returns 1 if planet is spherical
     assert a > 0
@@ -24,12 +26,12 @@ def relativePositions(m1, m2, G, r, i, time):
     y2 = -l*np.cos(i)*np.sin(omega*time)
     return x1, y1, x2, y2
 
-def ellipseParameters(a, b, c, i, omega, time):
+def ellipseParameters(a, b, c, i, omega, time, phasezero, n):
 # Takes semi axes, inclination, orbital velocity, time passed and phase as parameters
 # and outputs transformed axes and angle between y-axis.
     if shapeCase(a, b, c):
         return a, a, 0
-    alpha = omega*time - 0.5*np.pi
+    alpha = phasezero + n*omega*time - 0.5*np.pi
     A = (np.sin(alpha)/a)**2 + (np.cos(alpha)/b)**2
     B = (np.cos(alpha)*np.cos(i)/a)**2 + (np.sin(alpha)*np.cos(i)/b)**2 + (np.sin(i)/c)**2
     C = ((1/a)**2 - (1/b)**2)*np.sin(2*alpha)*np.cos(i)
@@ -63,7 +65,7 @@ def circleOverlap(r1, r2, x1, y1, x2, y2):
     return A
 
 
-def timePosition(m1, r1, m2, a, b, c, i, r, G, number, name):
+def timePosition(m1, r1, m2, a, b, c, phasezero, n, i, r, G, number, name):
 # This function takes mass and radius of star m1 and r1, mass and semi-axes of planet
 # m2, a, b, and c, its rotation phase at zero orbital phase phasezero, inclination of
 # orbit i, distance between star and planet r, gravitational constant G and number of
@@ -74,8 +76,9 @@ def timePosition(m1, r1, m2, a, b, c, i, r, G, number, name):
     itime = period/number # this is iteration time
     output = open(name, 'w')
     for j in range (number):
+# Count only ids with nonzero overlap, for zeros plot 4ish points
         X1, Y1, X2, Y2 = (relativePositions(m1, m2, G, r, i, j*itime))
-        A, B, Phi = (ellipseParameters(a, b, c, i, omega, j*itime))
+        A, B, Phi = (ellipseParameters(a, b, c, i, omega, j*itime, phasezero, n))
         # text = j, r1, r1, X1, Y1, 0.0, A, B, X2, Y2, Phi, "\n"
         text = j, r1, r1, "{:.5f}".format(X1), "{:.5f}".format(Y1), 0.0, "{:.5f}".format(A), "{:.5f}".format(B), "{:.5f}".format(X2), "{:.5f}".format(Y2), "{:.5f}".format(Phi), "\n" 
         output.write(" ".join(map(str, text)))
@@ -86,14 +89,12 @@ def timePosition(m1, r1, m2, a, b, c, i, r, G, number, name):
 m1 = 8
 m2 = 1
 r1 = 2
-# a = 1.2
-# b = 1
-# c = 0.8333333
-# i = 0.47*np.pi
-a = 1.2
+a = 1
 b = 1
-c = 0.8333333
-i = 0.45*np.pi
+c = 1
+phasezero = 0.3*np.pi
+i = 0.48*np.pi
+n = 10
 r = 10
 G = 1
 number = 10000
@@ -111,7 +112,7 @@ name = "10000-ellipses.txt"
 # number = 10000
 # name = "10000-ellipses.txt"
 ########################################
-timePosition(m1, r1, m2, a, b, c, i, r, G, number, name)
+timePosition(m1, r1, m2, a, b, c, phasezero, n, i, r, G, number, name)
 subprocess.run(["./overlap", name, "choice", "2"])
 subprocess.run(["sed", "-i", r"s/ \+/,/g", "results.txt"])
 import numpy as np

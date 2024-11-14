@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/nixos.org) (preloaded format=pdflatex 1980.1.1)  13 NOV 2024 05:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/nixos.org) (preloaded format=pdflatex 1980.1.1)  14 NOV 2024 01:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -683,63 +683,67 @@ LaTeX Info: Redefining \Bbbk on input line 2194.
 LaTeX Info: Redefining \not on input line 2476.
 )
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 22.
-(./transit-light-curves.aux (./figures/circles.aux) (./figures/ellipse-circle-0
-.5.aux) (./figures/ellipse-ellipse-different-phase.aux) (./figures/ellipse-elli
-pse-0.47-different-phase.aux) (./figures/ellipse-assymetrical.aux) (./figures/r
-ealistic.aux))
+(Font)              scaled to size 10.0pt on input line 23.
+(./transit-light-curves.aux
+No file figures/circles.aux.
+No file figures/circles-var-2.aux.
+No file figures/circle-and-ellipse-i-0.5pi-var-1.aux.
+No file figures/circle-and-ellipse-i-0.47.aux.
+No file figures/ellipses.aux.
+No file figures/realistic.aux.
+)
 \openout1 = `transit-light-curves.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 22.
+LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 23.
 LaTeX Font Info:    Trying to load font information for OML+npxmi on input line
- 22.
+ 23.
 
 (/nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-texmfdist/tex/lat
 ex/newpx/omlnpxmi.fd
 File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
 )
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 23.
 LaTeX Font Info:    Trying to load font information for U+npxexa on input line 
-22.
+23.
 
 (/nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-texmfdist/tex/lat
 ex/newpx/unpxexa.fd
 File: unpxexa.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxexa.
 )
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 23.
 LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line
- 22.
+ 23.
 
 (/nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-texmfdist/tex/lat
 ex/newpx/lmsnpxsy.fd
 File: lmsnpxsy.fd 2016/07/04 Fontinst v1.933 font definitions for LMS/npxsy.
 )
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 23.
 LaTeX Font Info:    Trying to load font information for LMX+npxexx on input lin
-e 22.
+e 23.
 
 (/nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-texmfdist/tex/lat
 ex/newpx/lmxnpxexx.fd
 File: lmxnpxexx.fd 2016/07/04 Fontinst v1.933 font definitions for LMX/npxexx.
 )
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    ... okay on input line 23.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -774,22 +778,22 @@ LaTeX Font Info:    ... okay on input line 22.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 22.
+Package hyperref Info: Link coloring OFF on input line 23.
 (./transit-light-curves.out) (./transit-light-curves.out)
 \@outlinefile=\write3
 \openout3 = `transit-light-curves.out'.
 
 \symgns@font=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/zpltlf/m/n --> TS1/zpltlf/b/n on input line 22.
-Package gensymb Info: Math companion symbols declared on input line 22.
-LaTeX Info: Redefining \degree on input line 22.
-LaTeX Info: Redefining \celsius on input line 22.
+(Font)                  TS1/zpltlf/m/n --> TS1/zpltlf/b/n on input line 23.
+Package gensymb Info: Math companion symbols declared on input line 23.
+LaTeX Info: Redefining \degree on input line 23.
+LaTeX Info: Redefining \celsius on input line 23.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 22.
-LaTeX Info: Redefining \ohm on input line 22.
-Package gensymb Info: Using \textohm for \ohm on input line 22.
-Package gensymb Info: Using \textmu for \micro on input line 22.
+erthousand on input line 23.
+LaTeX Info: Redefining \ohm on input line 23.
+Package gensymb Info: Using \textohm for \ohm on input line 23.
+Package gensymb Info: Using \textmu for \micro on input line 23.
 
 (/nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-texmfdist/tex/con
 text/base/mkii/supp-pdf.mkii
@@ -817,35 +821,44 @@ ex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Command `\dddot' is already robust on input line 22.
-LaTeX Info: Command `\ddddot' is already robust on input line 22.
+LaTeX Info: Command `\dddot' is already robust on input line 23.
+LaTeX Info: Command `\ddddot' is already robust on input line 23.
 \c@mv@tabular=\count310
 \c@mv@boldtabular=\count311
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 24.
+(Font)              scaled to size 17.28pt on input line 25.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 24.
+(Font)              scaled to size 9.0pt on input line 25.
+LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 
+25.
+
+(/nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-texmfdist/tex/lat
+ex/newpx/t1npxtt.fd
+File: t1npxtt.fd 2000/12/14 v1.0
+)
+LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
+(Font)              scaled to size 9.0pt on input line 25.
 LaTeX Font Info:    Trying to load font information for OT1+zpltlf on input lin
-e 24.
+e 25.
 
 (/nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-texmfdist/tex/lat
 ex/newpx/ot1zpltlf.fd
 File: ot1zpltlf.fd 2021/05/25 v1.0 font definition file for OT1/zpl/tlf
 )
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 24.
+(Font)              scaled to size 9.0pt on input line 25.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 24.
+(Font)              scaled to size 7.3pt on input line 25.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 24.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 24.
+(Font)              scaled to size 5.5pt on input line 25.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 25.
 
 
 (/nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-texmfdist/tex/lat
 ex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 24.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 25.
 
 
 (/nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-texmfdist/tex/lat
@@ -853,57 +866,63 @@ ex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+npxmia on input line 
-24.
+25.
 
 (/nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-texmfdist/tex/lat
 ex/newpx/unpxmia.fd
 File: unpxmia.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxmia.
 )
 LaTeX Font Info:    Trying to load font information for U+npxsym on input line 
-24.
+25.
 
 (/nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-texmfdist/tex/lat
 ex/newpx/unpxsym.fd
 File: unpxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/npxsym.
 )
 LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 
-24.
+25.
 
 (/nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-texmfdist/tex/lat
 ex/newpx/unpxsyc.fd
 File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
 )
 LaTeX Font Info:    Trying to load font information for TS1+zpltlf on input lin
-e 24.
+e 25.
 
 (/nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-texmfdist/tex/lat
 ex/newpx/ts1zpltlf.fd
 File: ts1zpltlf.fd 2021/11/24 v1.0 fd file for TS1/zpltlf
 )
 LaTeX Font Info:    Font shape `TS1/zpltlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 24.
+(Font)              scaled to size 9.0pt on input line 25.
 LaTeX Font Info:    Font shape `TS1/zpltlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 24.
+(Font)              scaled to size 7.3pt on input line 25.
 LaTeX Font Info:    Font shape `TS1/zpltlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 24.
+(Font)              scaled to size 5.5pt on input line 25.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 27.
+(Font)              scaled to size 12.0pt on input line 25.
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 25.
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 8.8pt on input line 25.
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 6.6pt on input line 25.
+LaTeX Font Info:    Font shape `TS1/zpltlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 25.
+LaTeX Font Info:    Font shape `TS1/zpltlf/m/n' will be
+(Font)              scaled to size 8.8pt on input line 25.
+LaTeX Font Info:    Font shape `TS1/zpltlf/m/n' will be
+(Font)              scaled to size 6.6pt on input line 25.
+LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
+(Font)              scaled to size 14.4pt on input line 28.
 LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 27.
+(Font)              scaled to size 14.4pt on input line 28.
 LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 41.
+(Font)              scaled to size 12.0pt on input line 42.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 48.
-LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 48.
-LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 5.5pt on input line 48.
 LaTeX Font Info:    Font shape `TS1/zpltlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 48.
-LaTeX Font Info:    Font shape `TS1/zpltlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 48.
-LaTeX Font Info:    Font shape `TS1/zpltlf/m/n' will be
-(Font)              scaled to size 5.5pt on input line 48.
 [1
 
 {/nix/store/xqizzd8x3y956ayqk8f4xsqab0r12rix-texlive-2023-env/share/texmf-var/f
@@ -912,15 +931,8 @@ texlive-2023-env-texmfdist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/nix/store/d80
 likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-texmfdist/fonts/enc/dvips/newtx/
 ntx-ot1-tlf.enc}{/nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-t
 exmfdist/fonts/enc/dvips/newpx/px-lms.enc}]
-LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 
-137.
-
-(/nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-texmfdist/tex/lat
-ex/newpx/t1npxtt.fd
-File: t1npxtt.fd 2000/12/14 v1.0
-)
 LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 137.
+(Font)              scaled to size 10.0pt on input line 149.
 \openout2 = `figures/circles.aux'.
 
 (./figures/circles.tex
@@ -928,92 +940,105 @@ LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
 \gptboxwidth=\skip57
 \gptboxtext=\box60
 Package epstopdf Info: Source file: <figures/circles.eps>
-(epstopdf)                    date: 2024-11-13 04:00:25
+(epstopdf)                    date: 2024-11-14 01:56:33
 (epstopdf)                    size: 383410 bytes
 (epstopdf)             Output file: <figures/circles-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-11-13 04:00:31
-(epstopdf)                    size: 193709 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/circles-eps-conver
 ted-to.pdf figures/circles.eps>
 (epstopdf)             \includegraphics on input line 114.
-Package epstopdf Info: Output file is already uptodate.
-<figures/circles-eps-converted-to.pdf, id=59, 397.485pt x 255.95625pt>
+runsystem(repstopdf --outfile=figures/circles-eps-converted-to.pdf figures/circ
+les.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <figures/circles-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-11-14 01:56:59
+(epstopdf)                    size: 193710 bytes.
+<figures/circles-eps-converted-to.pdf, id=61, 397.485pt x 255.95625pt>
 File: figures/circles-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/circles-eps-converted-to.pdf>
 Package pdftex.def Info: figures/circles-eps-converted-to.pdf  used on input li
 ne 114.
 (pdftex.def)             Requested size: 398.30281pt x 256.07277pt.
 )
-\openout2 = `figures/ellipse-circle-0.5.aux'.
+\openout2 = `figures/circles-var-2.aux'.
 
-(./figures/ellipse-circle-0.5.tex
-Package epstopdf Info: Source file: <figures/ellipse-circle-0.5.eps>
-(epstopdf)                    date: 2024-11-13 04:00:25
-(epstopdf)                    size: 383050 bytes
-(epstopdf)             Output file: <figures/ellipse-circle-0.5-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2024-11-13 04:00:33
-(epstopdf)                    size: 189836 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/ellipse-circle-0.5
--eps-converted-to.pdf figures/ellipse-circle-0.5.eps>
+(./figures/circles-var-2.tex
+Package epstopdf Info: Source file: <figures/circles-var-2.eps>
+(epstopdf)                    date: 2024-11-14 01:56:33
+(epstopdf)                    size: 383776 bytes
+(epstopdf)             Output file: <figures/circles-var-2-eps-converted-to.pdf
+>
+(epstopdf)             Command: <repstopdf --outfile=figures/circles-var-2-eps-
+converted-to.pdf figures/circles-var-2.eps>
 (epstopdf)             \includegraphics on input line 114.
-Package epstopdf Info: Output file is already uptodate.
-<figures/ellipse-circle-0.5-eps-converted-to.pdf, id=60, 397.485pt x 255.95625p
-t>
-File: figures/ellipse-circle-0.5-eps-converted-to.pdf Graphic file (type pdf)
-<use figures/ellipse-circle-0.5-eps-converted-to.pdf>
-Package pdftex.def Info: figures/ellipse-circle-0.5-eps-converted-to.pdf  used 
-on input line 114.
+runsystem(repstopdf --outfile=figures/circles-var-2-eps-converted-to.pdf figure
+s/circles-var-2.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <figures/circles-var-2-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2024-11-14 01:57:01
+(epstopdf)                    size: 193400 bytes.
+<figures/circles-var-2-eps-converted-to.pdf, id=62, 397.485pt x 255.95625pt>
+File: figures/circles-var-2-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/circles-var-2-eps-converted-to.pdf>
+Package pdftex.def Info: figures/circles-var-2-eps-converted-to.pdf  used on in
+put line 114.
 (pdftex.def)             Requested size: 398.30281pt x 256.07277pt.
 ) [2]
-\openout2 = `figures/ellipse-ellipse-different-phase.aux'.
+\openout2 = `figures/circle-and-ellipse-i-0.5pi-var-1.aux'.
 
-(./figures/ellipse-ellipse-different-phase.tex
-Package epstopdf Info: Source file: <figures/ellipse-ellipse-different-phase.ep
+(./figures/circle-and-ellipse-i-0.5pi-var-1.tex
+Package epstopdf Info: Source file: <figures/circle-and-ellipse-i-0.5pi-var-1.e
+ps>
+(epstopdf)                    date: 2024-11-14 01:56:33
+(epstopdf)                    size: 382560 bytes
+(epstopdf)             Output file: <figures/circle-and-ellipse-i-0.5pi-var-1-e
+ps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=figures/circle-and-ellipse
+-i-0.5pi-var-1-eps-converted-to.pdf figures/circle-and-ellipse-i-0.5pi-var-1.ep
 s>
-(epstopdf)                    date: 2024-11-13 04:00:25
-(epstopdf)                    size: 383314 bytes
-(epstopdf)             Output file: <figures/ellipse-ellipse-different-phase-ep
-s-converted-to.pdf>
-(epstopdf)                    date: 2024-11-13 04:00:34
-(epstopdf)                    size: 191671 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/ellipse-ellipse-di
-fferent-phase-eps-converted-to.pdf figures/ellipse-ellipse-different-phase.eps>
+(epstopdf)             \includegraphics on input line 114.
+runsystem(repstopdf --outfile=figures/circle-and-ellipse-i-0.5pi-var-1-eps-conv
+erted-to.pdf figures/circle-and-ellipse-i-0.5pi-var-1.eps)...executed safely (a
+llowed).
 
-(epstopdf)             \includegraphics on input line 115.
-Package epstopdf Info: Output file is already uptodate.
-<figures/ellipse-ellipse-different-phase-eps-converted-to.pdf, id=72, 397.485pt
- x 255.95625pt>
-File: figures/ellipse-ellipse-different-phase-eps-converted-to.pdf Graphic file
- (type pdf)
-<use figures/ellipse-ellipse-different-phase-eps-converted-to.pdf>
-Package pdftex.def Info: figures/ellipse-ellipse-different-phase-eps-converted-
-to.pdf  used on input line 115.
+Package epstopdf Info: Result file: <figures/circle-and-ellipse-i-0.5pi-var-1-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2024-11-14 01:57:02
+(epstopdf)                    size: 186568 bytes.
+<figures/circle-and-ellipse-i-0.5pi-var-1-eps-converted-to.pdf, id=75, 397.485p
+t x 255.95625pt>
+File: figures/circle-and-ellipse-i-0.5pi-var-1-eps-converted-to.pdf Graphic fil
+e (type pdf)
+<use figures/circle-and-ellipse-i-0.5pi-var-1-eps-converted-to.pdf>
+Package pdftex.def Info: figures/circle-and-ellipse-i-0.5pi-var-1-eps-converted
+-to.pdf  used on input line 114.
 (pdftex.def)             Requested size: 398.30281pt x 256.07277pt.
 )
-\openout2 = `figures/ellipse-ellipse-0.47-different-phase.aux'.
+\openout2 = `figures/circle-and-ellipse-i-0.47.aux'.
 
-(./figures/ellipse-ellipse-0.47-different-phase.tex
-Package epstopdf Info: Source file: <figures/ellipse-ellipse-0.47-different-pha
-se.eps>
-(epstopdf)                    date: 2024-11-13 04:00:25
-(epstopdf)                    size: 385280 bytes
-(epstopdf)             Output file: <figures/ellipse-ellipse-0.47-different-pha
-se-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-11-13 04:00:35
-(epstopdf)                    size: 198841 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/ellipse-ellipse-0.
-47-different-phase-eps-converted-to.pdf figures/ellipse-ellipse-0.47-different-
-phase.eps>
-(epstopdf)             \includegraphics on input line 115.
-Package epstopdf Info: Output file is already uptodate.
-<figures/ellipse-ellipse-0.47-different-phase-eps-converted-to.pdf, id=73, 397.
-485pt x 255.95625pt>
-File: figures/ellipse-ellipse-0.47-different-phase-eps-converted-to.pdf Graphic
- file (type pdf)
-<use figures/ellipse-ellipse-0.47-different-phase-eps-converted-to.pdf>
-Package pdftex.def Info: figures/ellipse-ellipse-0.47-different-phase-eps-conve
-rted-to.pdf  used on input line 115.
+(./figures/circle-and-ellipse-i-0.47.tex
+Package epstopdf Info: Source file: <figures/circle-and-ellipse-i-0.47.eps>
+(epstopdf)                    date: 2024-11-14 01:56:33
+(epstopdf)                    size: 384646 bytes
+(epstopdf)             Output file: <figures/circle-and-ellipse-i-0.47-eps-conv
+erted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=figures/circle-and-ellipse
+-i-0.47-eps-converted-to.pdf figures/circle-and-ellipse-i-0.47.eps>
+(epstopdf)             \includegraphics on input line 114.
+runsystem(repstopdf --outfile=figures/circle-and-ellipse-i-0.47-eps-converted-t
+o.pdf figures/circle-and-ellipse-i-0.47.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <figures/circle-and-ellipse-i-0.47-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2024-11-14 01:57:03
+(epstopdf)                    size: 196157 bytes.
+<figures/circle-and-ellipse-i-0.47-eps-converted-to.pdf, id=76, 397.485pt x 255
+.95625pt>
+File: figures/circle-and-ellipse-i-0.47-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use figures/circle-and-ellipse-i-0.47-eps-converted-to.pdf>
+Package pdftex.def Info: figures/circle-and-ellipse-i-0.47-eps-converted-to.pdf
+  used on input line 114.
 (pdftex.def)             Requested size: 398.30281pt x 256.07277pt.
 ) [3
 
@@ -1024,7 +1049,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.169 \end{figure}
+l.192 \end{figure}
                   
 
 
@@ -1034,46 +1059,49 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.169 \end{figure}
-                   <./figures/circles-eps-converted-to.pdf> <./figures/ellipse-
-circle-0.5-eps-converted-to.pdf>]
-\openout2 = `figures/ellipse-assymetrical.aux'.
+l.192 \end{figure}
+                   <./figures/circles-eps-converted-to.pdf> <./figures/circles-
+var-2-eps-converted-to.pdf>]
+\openout2 = `figures/ellipses.aux'.
 
-(./figures/ellipse-assymetrical.tex
-Package epstopdf Info: Source file: <figures/ellipse-assymetrical.eps>
-(epstopdf)                    date: 2024-11-13 04:00:25
-(epstopdf)                    size: 202098 bytes
-(epstopdf)             Output file: <figures/ellipse-assymetrical-eps-converted
--to.pdf>
-(epstopdf)                    date: 2024-11-13 04:00:36
-(epstopdf)                    size: 102240 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/ellipse-assymetric
-al-eps-converted-to.pdf figures/ellipse-assymetrical.eps>
-(epstopdf)             \includegraphics on input line 113.
-Package epstopdf Info: Output file is already uptodate.
-<figures/ellipse-assymetrical-eps-converted-to.pdf, id=84, 397.485pt x 255.9562
-5pt>
-File: figures/ellipse-assymetrical-eps-converted-to.pdf Graphic file (type pdf)
+(./figures/ellipses.tex
+Package epstopdf Info: Source file: <figures/ellipses.eps>
+(epstopdf)                    date: 2024-11-14 01:56:33
+(epstopdf)                    size: 383762 bytes
+(epstopdf)             Output file: <figures/ellipses-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=figures/ellipses-eps-conve
+rted-to.pdf figures/ellipses.eps>
+(epstopdf)             \includegraphics on input line 114.
+runsystem(repstopdf --outfile=figures/ellipses-eps-converted-to.pdf figures/ell
+ipses.eps)...executed safely (allowed).
 
-<use figures/ellipse-assymetrical-eps-converted-to.pdf>
-Package pdftex.def Info: figures/ellipse-assymetrical-eps-converted-to.pdf  use
-d on input line 113.
+Package epstopdf Info: Result file: <figures/ellipses-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-11-14 01:57:04
+(epstopdf)                    size: 187768 bytes.
+<figures/ellipses-eps-converted-to.pdf, id=87, 397.485pt x 255.95625pt>
+File: figures/ellipses-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/ellipses-eps-converted-to.pdf>
+Package pdftex.def Info: figures/ellipses-eps-converted-to.pdf  used on input l
+ine 114.
 (pdftex.def)             Requested size: 398.30281pt x 256.07277pt.
 )
 \openout2 = `figures/realistic.aux'.
 
 (./figures/realistic.tex
 Package epstopdf Info: Source file: <figures/realistic.eps>
-(epstopdf)                    date: 2024-11-13 04:00:25
-(epstopdf)                    size: 196690 bytes
+(epstopdf)                    date: 2024-11-14 01:56:33
+(epstopdf)                    size: 19282 bytes
 (epstopdf)             Output file: <figures/realistic-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-11-13 04:00:37
-(epstopdf)                    size: 74998 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/realistic-eps-conv
 erted-to.pdf figures/realistic.eps>
 (epstopdf)             \includegraphics on input line 112.
-Package epstopdf Info: Output file is already uptodate.
-<figures/realistic-eps-converted-to.pdf, id=85, 397.485pt x 255.95625pt>
+runsystem(repstopdf --outfile=figures/realistic-eps-converted-to.pdf figures/re
+alistic.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <figures/realistic-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-11-14 01:57:05
+(epstopdf)                    size: 3802 bytes.
+<figures/realistic-eps-converted-to.pdf, id=88, 397.485pt x 255.95625pt>
 File: figures/realistic-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/realistic-eps-converted-to.pdf>
 Package pdftex.def Info: figures/realistic-eps-converted-to.pdf  used on input 
@@ -1088,7 +1116,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.181 \end{figure}
+l.210 \end{figure}
                   
 
 
@@ -1098,11 +1126,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.181 \end{figure}
-                   <./figures/ellipse-ellipse-different-phase-eps-converted-to.
-pdf> <./figures/ellipse-ellipse-0.47-different-phase-eps-converted-to.pdf>]
+l.210 \end{figure}
+                   <./figures/circle-and-ellipse-i-0.5pi-var-1-eps-converted-to
+.pdf> <./figures/circle-and-ellipse-i-0.47-eps-converted-to.pdf>]
 LaTeX Font Info:    Font shape `T1/zpltlf/m/it' will be
-(Font)              scaled to size 10.0pt on input line 184.
+(Font)              scaled to size 10.0pt on input line 213.
 [5
 
 
@@ -1112,7 +1140,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.191 \begin{thebibliography}{5}
+l.223 \begin{thebibliography}{5}
                                 
 
 
@@ -1122,36 +1150,27 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.191 \begin{thebibliography}{5}
-                                 <./figures/ellipse-assymetrical-eps-converted-
-to.pdf> <./figures/realistic-eps-converted-to.pdf>] [6] (./transit-light-curves
-.aux (./figures/circles.aux) (./figures/ellipse-circle-0.5.aux) (./figures/elli
-pse-ellipse-different-phase.aux) (./figures/ellipse-ellipse-0.47-different-phas
-e.aux) (./figures/ellipse-assymetrical.aux) (./figures/realistic.aux))
+l.223 \begin{thebibliography}{5}
+                                 <./figures/ellipses-eps-converted-to.pdf> <./f
+igures/realistic-eps-converted-to.pdf>] [6] (./transit-light-curves.aux (./figu
+res/circles.aux) (./figures/circles-var-2.aux) (./figures/circle-and-ellipse-i-
+0.5pi-var-1.aux) (./figures/circle-and-ellipse-i-0.47.aux) (./figures/ellipses.
+aux) (./figures/realistic.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `transit-light-curves.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `transit-light-curves.out':
-(rerunfilecheck)             Before: 0B131115041A64CEE9C8905DBD7604FB;1220
-(rerunfilecheck)             After:  889618FB469B6E7FF3BD33A9153CDE6D;1220.
+Package rerunfilecheck Info: File `transit-light-curves.out' has not changed.
+(rerunfilecheck)             Checksum: 889618FB469B6E7FF3BD33A9153CDE6D;1220.
  ) 
 Here is how much of TeX's memory you used:
- 15093 strings out of 474116
- 243668 string characters out of 5720541
- 1947187 words of memory out of 5000000
- 37111 multiletter control sequences out of 15000+600000
- 610337 words of font info for 122 fonts, out of 8000000 for 9000
+ 15090 strings out of 474116
+ 241818 string characters out of 5720541
+ 1950187 words of memory out of 5000000
+ 37119 multiletter control sequences out of 15000+600000
+ 618202 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,9n,93p,472b,493s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,9n,93p,585b,493s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-texmfdist/fonts
 /type1/public/newpx/NewPXMI.pfb></nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-te
 xlive-2023-env-texmfdist/fonts/type1/public/newpx/NewPXMI_gnu.pfb></nix/store/d
@@ -1165,10 +1184,10 @@ public/newtx/txexs.pfb></nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-202
 sq1dximagxlx8j7-texlive-2023-env-texmfdist/fonts/type1/public/newpx/zplr.pfb></
 nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-texmfdist/fonts/typ
 e1/public/newpx/zplri.pfb>
-Output written on transit-light-curves.pdf (6 pages, 1091742 bytes).
+Output written on transit-light-curves.pdf (6 pages, 1103751 bytes).
 PDF statistics:
- 172 PDF objects out of 1000 (max. 8388607)
- 137 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
+ 174 PDF objects out of 1000 (max. 8388607)
+ 139 compressed objects within 2 object streams
+ 33 named destinations out of 1000 (max. 500000)
  95 words of extra memory for PDF output out of 10000 (max. 10000000)
 
