@@ -13,3 +13,10 @@ hmotnost hvězdy a planety, poloměr dráhy, zploštění planety)
 vygeneruje časovou řadu relativní jasnosti hvězdy
 - [ ] 1. 10. - 15. 11. 2024: Pro několik vybraných příkladů porovnat světelnou křivku elipsoidální
 planety a kulové planety o stejném objemu
+
+## Jak to spoustit/How to run it
+Linux (NixOS):
+- eeover self-explanatory
+- mv overlap one level up
+- run program.py with parameters
+- comments inside
