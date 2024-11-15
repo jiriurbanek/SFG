@@ -75,7 +75,7 @@ orbits become circular and synchronous and planetary bodies less spherical. \cit
 The shape of such a planet can generally be described by a 3-axis ellipsoid.
 Such an ellipsoid, when projected to a plane, can be thought of as an ellipse with varying
 semi-axes $a^{\prime}$ and $b^{\prime}$. Semi-axes $a^{\prime}$ and $b^{\prime}$ 
-are described by the equation \cite{correia1} [thanks to Dr. Walterová]
+are described by the equation \cite{correia1, walterova}
 \begin{equation}
   a^{\prime}, b^{\prime} = \frac{-\sqrt{-2(C^2 - 4AB)\left(A + B \mp\sqrt{(A -B)^2 + C^2}\right)}}{C^2 - 4AB}
   \label{eq:semi-axes}
@@ -97,7 +97,7 @@ sphere with their projections being an ellipse and a circle respectively.
 Relative positions of an ellipse and a circle, can be described
 in several parameters, namely the circle radius $r$ and centre $[h_1, k_1]$ and the
 ellipse semi-axes $a$ and $b$, centre $[h_2, k_2]$ and angle $\phi$ against x-axis. For
-our purposes, $\phi$ is described by equation \cite{correia1} [thanks to Dr. Walterová]
+our purposes, $\phi$ is described by equation \cite{walterova}
 \begin{equation}
   \phi = \frac{1}{2}\arctan 2(-C, B-A)
   \label{eq:phi}
@@ -162,27 +162,30 @@ For demonstration purposees, the parameters are very unrealistic.
 \begin{figure}[H]
   \centering
   \include{figures/circles}
-  \caption{Two spheres of the same size ($r_2$ = 1) but of different inclination $i$,
+  \caption{Three spheres of the same size ($r_2$ = 1) but of different inclination $i$,
   the planet with inclnation closer to $0.5\pi$ crosses the star as much as possible
   but the star with smaller inclination passes across a smaller portion of the star's
   surface, resulting in a different transit light curve while retaining the same
-  peak dimming.}
+  peak dimming. The planet with inclination $0.45 \pi$ doesn't cross the star with all
+  of its projected surface and as a result the largest dip in the star's relative
+  brightness isn't as pronounced and the transit light curve has a different shape altogether.}
 \end{figure}
-\begin{figure}[H]
-  \centering
-  \include{figures/circles-var-2.tex}
-  \caption{Two spheres of the same size ($r_2=1$) but of different inclination $i$.
-  The sphere with inclination $0.45\pi$ doesn't cross the star's surface with its
-  whole projected area and as a result, the largest dip in the star's relative brightness
-  isn't as pronounced and the transit light curve has a different shape altogether.}
-\end{figure}
+% \begin{figure}[H]
+%   \centering
+%   \include{figures/circles-var-2.tex}
+%   \caption{Two spheres of the same size ($r_2=1$) but of different inclination $i$.
+%   The sphere with inclination $0.45\pi$ doesn't cross the star's surface with its
+%   whole projected area and as a result, the largest dip in the star's relative brightness
+%   isn't as pronounced and the transit light curve has a different shape altogether.}
+% \end{figure}
 \begin{figure}[H]
   \centering
   \include{figures/circle-and-ellipse-i-0.5pi-var-1}
   \caption{Sphere ($r_2=1$) and ellipsoid ($a=1.2$, $b=1$, $c=0.8333333$) of effectively
   the same volume and same $i=0.5\pi$. As can be seen, the ellipsoidal planet faces the
   observer directly when its projected area is the smallest and its projected area is
-  always smaller than the projected area of the spherical planet.}
+  always smaller than the projected area of the spherical planet. Positive difference
+  between the two charts is also shown}
 \end{figure}
 \begin{figure}[H]
   \centering
@@ -223,6 +226,7 @@ only a slight modification of the project is needed.
 \begin{thebibliography}{5}
   \bibitem{carter} Joshua A. Carter and Joshua N. Winn. EMPIRICAL CONSTRAINTS ON THE OBLATENESS OF AN EXOPLANET. 2010 \url{http://dx.doi.org/10.1088/0004-637X/709/2/1219}
   \bibitem{correia1} Alexandre C. M. Correia. Transit light curve and inner structure of close-in planets. 2014. \url{https://doi.org/10.48550/arXiv.0912.1594}
+  \bibitem{walterova} M. Walterová. Vliv tvaru exoplanet na podobu transitních křivek \url{}
   \bibitem{eeover} Hughes, G.B., Chraibi, M. Calculating ellipse overlap areas. Comput. Visual Sci. 15, 291–301 (2012). \url{https://doi.org/10.1007/s00791-013-0214-3}
 \end{thebibliography}
 \end{document}

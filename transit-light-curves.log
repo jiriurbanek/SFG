@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/nixos.org) (preloaded format=pdflatex 1980.1.1)  14 NOV 2024 01:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/nixos.org) (preloaded format=pdflatex 1980.1.1)  15 NOV 2024 13:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -684,14 +684,9 @@ LaTeX Info: Redefining \not on input line 2476.
 )
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 23.
-(./transit-light-curves.aux
-No file figures/circles.aux.
-No file figures/circles-var-2.aux.
-No file figures/circle-and-ellipse-i-0.5pi-var-1.aux.
-No file figures/circle-and-ellipse-i-0.47.aux.
-No file figures/ellipses.aux.
-No file figures/realistic.aux.
-)
+(./transit-light-curves.aux (./figures/circles.aux) (./figures/circles-var-2.au
+x) (./figures/circle-and-ellipse-i-0.5pi-var-1.aux) (./figures/circle-and-ellip
+se-i-0.47.aux) (./figures/ellipses.aux) (./figures/realistic.aux))
 \openout1 = `transit-light-curves.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 23.
@@ -940,99 +935,62 @@ LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
 \gptboxwidth=\skip57
 \gptboxtext=\box60
 Package epstopdf Info: Source file: <figures/circles.eps>
-(epstopdf)                    date: 2024-11-14 01:56:33
-(epstopdf)                    size: 383410 bytes
+(epstopdf)                    date: 2024-11-15 13:13:07
+(epstopdf)                    size: 567051 bytes
 (epstopdf)             Output file: <figures/circles-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-11-15 13:13:13
+(epstopdf)                    size: 290749 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/circles-eps-conver
 ted-to.pdf figures/circles.eps>
-(epstopdf)             \includegraphics on input line 114.
-runsystem(repstopdf --outfile=figures/circles-eps-converted-to.pdf figures/circ
-les.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <figures/circles-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-11-14 01:56:59
-(epstopdf)                    size: 193710 bytes.
-<figures/circles-eps-converted-to.pdf, id=61, 397.485pt x 255.95625pt>
+(epstopdf)             \includegraphics on input line 116.
+Package epstopdf Info: Output file is already uptodate.
+<figures/circles-eps-converted-to.pdf, id=62, 397.485pt x 255.95625pt>
 File: figures/circles-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/circles-eps-converted-to.pdf>
 Package pdftex.def Info: figures/circles-eps-converted-to.pdf  used on input li
-ne 114.
+ne 116.
 (pdftex.def)             Requested size: 398.30281pt x 256.07277pt.
 )
-\openout2 = `figures/circles-var-2.aux'.
-
-(./figures/circles-var-2.tex
-Package epstopdf Info: Source file: <figures/circles-var-2.eps>
-(epstopdf)                    date: 2024-11-14 01:56:33
-(epstopdf)                    size: 383776 bytes
-(epstopdf)             Output file: <figures/circles-var-2-eps-converted-to.pdf
->
-(epstopdf)             Command: <repstopdf --outfile=figures/circles-var-2-eps-
-converted-to.pdf figures/circles-var-2.eps>
-(epstopdf)             \includegraphics on input line 114.
-runsystem(repstopdf --outfile=figures/circles-var-2-eps-converted-to.pdf figure
-s/circles-var-2.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <figures/circles-var-2-eps-converted-to.pdf
->
-(epstopdf)                    date: 2024-11-14 01:57:01
-(epstopdf)                    size: 193400 bytes.
-<figures/circles-var-2-eps-converted-to.pdf, id=62, 397.485pt x 255.95625pt>
-File: figures/circles-var-2-eps-converted-to.pdf Graphic file (type pdf)
-<use figures/circles-var-2-eps-converted-to.pdf>
-Package pdftex.def Info: figures/circles-var-2-eps-converted-to.pdf  used on in
-put line 114.
-(pdftex.def)             Requested size: 398.30281pt x 256.07277pt.
-) [2]
 \openout2 = `figures/circle-and-ellipse-i-0.5pi-var-1.aux'.
 
 (./figures/circle-and-ellipse-i-0.5pi-var-1.tex
 Package epstopdf Info: Source file: <figures/circle-and-ellipse-i-0.5pi-var-1.e
 ps>
-(epstopdf)                    date: 2024-11-14 01:56:33
-(epstopdf)                    size: 382560 bytes
+(epstopdf)                    date: 2024-11-15 13:13:08
+(epstopdf)                    size: 540456 bytes
 (epstopdf)             Output file: <figures/circle-and-ellipse-i-0.5pi-var-1-e
 ps-converted-to.pdf>
+(epstopdf)                    date: 2024-11-15 13:13:16
+(epstopdf)                    size: 246222 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/circle-and-ellipse
 -i-0.5pi-var-1-eps-converted-to.pdf figures/circle-and-ellipse-i-0.5pi-var-1.ep
 s>
-(epstopdf)             \includegraphics on input line 114.
-runsystem(repstopdf --outfile=figures/circle-and-ellipse-i-0.5pi-var-1-eps-conv
-erted-to.pdf figures/circle-and-ellipse-i-0.5pi-var-1.eps)...executed safely (a
-llowed).
-
-Package epstopdf Info: Result file: <figures/circle-and-ellipse-i-0.5pi-var-1-e
-ps-converted-to.pdf>
-(epstopdf)                    date: 2024-11-14 01:57:02
-(epstopdf)                    size: 186568 bytes.
-<figures/circle-and-ellipse-i-0.5pi-var-1-eps-converted-to.pdf, id=75, 397.485p
+(epstopdf)             \includegraphics on input line 124.
+Package epstopdf Info: Output file is already uptodate.
+<figures/circle-and-ellipse-i-0.5pi-var-1-eps-converted-to.pdf, id=63, 397.485p
 t x 255.95625pt>
 File: figures/circle-and-ellipse-i-0.5pi-var-1-eps-converted-to.pdf Graphic fil
 e (type pdf)
 <use figures/circle-and-ellipse-i-0.5pi-var-1-eps-converted-to.pdf>
 Package pdftex.def Info: figures/circle-and-ellipse-i-0.5pi-var-1-eps-converted
--to.pdf  used on input line 114.
+-to.pdf  used on input line 124.
 (pdftex.def)             Requested size: 398.30281pt x 256.07277pt.
-)
+) [2]
 \openout2 = `figures/circle-and-ellipse-i-0.47.aux'.
 
 (./figures/circle-and-ellipse-i-0.47.tex
 Package epstopdf Info: Source file: <figures/circle-and-ellipse-i-0.47.eps>
-(epstopdf)                    date: 2024-11-14 01:56:33
+(epstopdf)                    date: 2024-11-15 13:13:08
 (epstopdf)                    size: 384646 bytes
 (epstopdf)             Output file: <figures/circle-and-ellipse-i-0.47-eps-conv
 erted-to.pdf>
+(epstopdf)                    date: 2024-11-15 13:13:17
+(epstopdf)                    size: 196155 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/circle-and-ellipse
 -i-0.47-eps-converted-to.pdf figures/circle-and-ellipse-i-0.47.eps>
 (epstopdf)             \includegraphics on input line 114.
-runsystem(repstopdf --outfile=figures/circle-and-ellipse-i-0.47-eps-converted-t
-o.pdf figures/circle-and-ellipse-i-0.47.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <figures/circle-and-ellipse-i-0.47-eps-conv
-erted-to.pdf>
-(epstopdf)                    date: 2024-11-14 01:57:03
-(epstopdf)                    size: 196157 bytes.
-<figures/circle-and-ellipse-i-0.47-eps-converted-to.pdf, id=76, 397.485pt x 255
+Package epstopdf Info: Output file is already uptodate.
+<figures/circle-and-ellipse-i-0.47-eps-converted-to.pdf, id=77, 397.485pt x 255
 .95625pt>
 File: figures/circle-and-ellipse-i-0.47-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1049,36 +1007,22 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.192 \end{figure}
-                  
-
-
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.192 \end{figure}
-                   <./figures/circles-eps-converted-to.pdf> <./figures/circles-
-var-2-eps-converted-to.pdf>]
+l.195 \end{figure}
+                   <./figures/circles-eps-converted-to.pdf>]
 \openout2 = `figures/ellipses.aux'.
 
 (./figures/ellipses.tex
 Package epstopdf Info: Source file: <figures/ellipses.eps>
-(epstopdf)                    date: 2024-11-14 01:56:33
+(epstopdf)                    date: 2024-11-15 13:13:08
 (epstopdf)                    size: 383762 bytes
 (epstopdf)             Output file: <figures/ellipses-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-11-15 13:13:19
+(epstopdf)                    size: 187766 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/ellipses-eps-conve
 rted-to.pdf figures/ellipses.eps>
 (epstopdf)             \includegraphics on input line 114.
-runsystem(repstopdf --outfile=figures/ellipses-eps-converted-to.pdf figures/ell
-ipses.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <figures/ellipses-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-11-14 01:57:04
-(epstopdf)                    size: 187768 bytes.
-<figures/ellipses-eps-converted-to.pdf, id=87, 397.485pt x 255.95625pt>
+Package epstopdf Info: Output file is already uptodate.
+<figures/ellipses-eps-converted-to.pdf, id=85, 397.485pt x 255.95625pt>
 File: figures/ellipses-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/ellipses-eps-converted-to.pdf>
 Package pdftex.def Info: figures/ellipses-eps-converted-to.pdf  used on input l
@@ -1089,19 +1033,16 @@ ine 114.
 
 (./figures/realistic.tex
 Package epstopdf Info: Source file: <figures/realistic.eps>
-(epstopdf)                    date: 2024-11-14 01:56:33
+(epstopdf)                    date: 2024-11-15 13:13:08
 (epstopdf)                    size: 19282 bytes
 (epstopdf)             Output file: <figures/realistic-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-11-15 13:13:19
+(epstopdf)                    size: 3800 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/realistic-eps-conv
 erted-to.pdf figures/realistic.eps>
 (epstopdf)             \includegraphics on input line 112.
-runsystem(repstopdf --outfile=figures/realistic-eps-converted-to.pdf figures/re
-alistic.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <figures/realistic-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-11-14 01:57:05
-(epstopdf)                    size: 3802 bytes.
-<figures/realistic-eps-converted-to.pdf, id=88, 397.485pt x 255.95625pt>
+Package epstopdf Info: Output file is already uptodate.
+<figures/realistic-eps-converted-to.pdf, id=86, 397.485pt x 255.95625pt>
 File: figures/realistic-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/realistic-eps-converted-to.pdf>
 Package pdftex.def Info: figures/realistic-eps-converted-to.pdf  used on input 
@@ -1112,12 +1053,26 @@ line 112.
 
 
 
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.213 \end{figure}
+                  
+
+
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.210 \end{figure}
-                  
+l.213 \end{figure}
+                   <./figures/circle-and-ellipse-i-0.5pi-var-1-eps-converted-to
+.pdf> <./figures/circle-and-ellipse-i-0.47-eps-converted-to.pdf>]
+LaTeX Font Info:    Font shape `T1/zpltlf/m/it' will be
+(Font)              scaled to size 10.0pt on input line 216.
+[5
 
 
 
@@ -1126,12 +1081,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.210 \end{figure}
-                   <./figures/circle-and-ellipse-i-0.5pi-var-1-eps-converted-to
-.pdf> <./figures/circle-and-ellipse-i-0.47-eps-converted-to.pdf>]
-LaTeX Font Info:    Font shape `T1/zpltlf/m/it' will be
-(Font)              scaled to size 10.0pt on input line 213.
-[5
+l.226 \begin{thebibliography}{5}
+                                
 
 
 
@@ -1140,54 +1091,51 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.223 \begin{thebibliography}{5}
-                                
-
-
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.223 \begin{thebibliography}{5}
+l.226 \begin{thebibliography}{5}
                                  <./figures/ellipses-eps-converted-to.pdf> <./f
 igures/realistic-eps-converted-to.pdf>] [6] (./transit-light-curves.aux (./figu
-res/circles.aux) (./figures/circles-var-2.aux) (./figures/circle-and-ellipse-i-
-0.5pi-var-1.aux) (./figures/circle-and-ellipse-i-0.47.aux) (./figures/ellipses.
-aux) (./figures/realistic.aux))
+res/circles.aux) (./figures/circle-and-ellipse-i-0.5pi-var-1.aux) (./figures/ci
+rcle-and-ellipse-i-0.47.aux) (./figures/ellipses.aux) (./figures/realistic.aux)
+)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `transit-light-curves.out' has not changed.
 (rerunfilecheck)             Checksum: 889618FB469B6E7FF3BD33A9153CDE6D;1220.
  ) 
 Here is how much of TeX's memory you used:
- 15090 strings out of 474116
- 241818 string characters out of 5720541
- 1950187 words of memory out of 5000000
- 37119 multiletter control sequences out of 15000+600000
+ 15059 strings out of 474116
+ 240514 string characters out of 5720541
+ 1951187 words of memory out of 5000000
+ 37079 multiletter control sequences out of 15000+600000
  618202 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,9n,93p,585b,493s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-texmfdist/fonts
-/type1/public/newpx/NewPXMI.pfb></nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-te
-xlive-2023-env-texmfdist/fonts/type1/public/newpx/NewPXMI_gnu.pfb></nix/store/d
-80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-texmfdist/fonts/type1/public/n
-ewpx/pxmiaX.pfb></nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-t
-exmfdist/fonts/type1/public/newpx/pxsys.pfb></nix/store/d80likrir75iwgnkrsq1dxi
-magxlx8j7-texlive-2023-env-texmfdist/fonts/type1/public/txfonts/t1xtt.pfb></nix
-/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-texmfdist/fonts/type1/
-public/newtx/txexs.pfb></nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-202
-3-env-texmfdist/fonts/type1/public/newpx/zplb.pfb></nix/store/d80likrir75iwgnkr
-sq1dximagxlx8j7-texlive-2023-env-texmfdist/fonts/type1/public/newpx/zplr.pfb></
-nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-texmfdist/fonts/typ
-e1/public/newpx/zplri.pfb>
-Output written on transit-light-curves.pdf (6 pages, 1103751 bytes).
+ 80i,9n,93p,741b,493s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{figure.6} has been referenced but does not exist, r
+eplaced by a fixed one
+
+</nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-texmfdist/fonts/t
+ype1/public/newpx/NewPXMI.pfb></nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texl
+ive-2023-env-texmfdist/fonts/type1/public/newpx/NewPXMI_gnu.pfb></nix/store/d80
+likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-texmfdist/fonts/type1/public/new
+px/pxmiaX.pfb></nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-tex
+mfdist/fonts/type1/public/newpx/pxsys.pfb></nix/store/d80likrir75iwgnkrsq1dxima
+gxlx8j7-texlive-2023-env-texmfdist/fonts/type1/public/txfonts/t1xtt.pfb></nix/s
+tore/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-texmfdist/fonts/type1/pu
+blic/newtx/txexs.pfb></nix/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-
+env-texmfdist/fonts/type1/public/newpx/zplb.pfb></nix/store/d80likrir75iwgnkrsq
+1dximagxlx8j7-texlive-2023-env-texmfdist/fonts/type1/public/newpx/zplr.pfb></ni
+x/store/d80likrir75iwgnkrsq1dximagxlx8j7-texlive-2023-env-texmfdist/fonts/type1
+/public/newpx/zplri.pfb>
+Output written on transit-light-curves.pdf (6 pages, 1069585 bytes).
 PDF statistics:
  174 PDF objects out of 1000 (max. 8388607)
- 139 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 95 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 140 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 90 words of extra memory for PDF output out of 10000 (max. 10000000)
 

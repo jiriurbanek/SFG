@@ -1,11 +1,8 @@
-import subprocess
 import numpy as np
-subprocess.run(["./overlap", "100000-ellipses.txt", "choice", "2"])
-subprocess.run(["sed", "-i", r"s/ \+/,/g", "results.txt"])
-import numpy as np
-array = np.loadtxt(open("results.txt", "rb"), delimiter=",", skiprows=1)
-output = open("results2.txt", 'w')
-for row in range(len(array)):
-    a = (array[row][1] - array[row][4])/array[row][1]
+circle = np.loadtxt(open("circle-i-0.5-pi.txt", "rb"), delimiter=",", skiprows=0)
+ellipse = np.loadtxt(open("ellipse-i-0.5-a-1.2-b-1-c-0.8333333.txt", "rb"), delimiter=",", skiprows=0)
+output = open("difference.txt", 'w')
+for row in range(10000):
+    a = (- circle[row][1] + ellipse[row][1])
     output.write(str(row)+","+str(a)+"\n")
 output.close()
